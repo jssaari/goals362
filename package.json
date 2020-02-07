@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  },
+  "scripts": {
+    "build": "goals-362.html"
+  },
+    "license": "MIT"
+}
