@@ -155,23 +155,30 @@ section.page-home .inner .item h3 {padding-top:10px;}
 					<h1>Create an Account</h1>
 				</div>
 				<div class="item">
-					<h3></h3>
-                    <input type="text" placeholder="First Name" required>
-                    <input type="text" placeholder="Last Name" required>
-                    <br>
-                    <input type="text" placeholder="Username" required>
-                    <br>
-                    <input type="text" placeholder="Password" required>
-                    <br>
-                    <input type="text" placeholder="Confirm Password" required>
-                    <br>
-                    <input type="text" placeholder="Email" required>
-                    <br>
-                    <input type="text" placeholder="Birthday" required>
-                    <br>
-                    <br>
-                    <br>
-					<button type="submit">Create My Account</button>
+					<form action="/submit-user-profile">
+                        <h4>If you already have an account click <a href="#">here</a> to login.</h4>
+                        <br>
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                        <br>
+                        <input type="text" placeholder="Username" required>
+                        <br>
+                        <input type="text" placeholder="Password" required>
+                        <br>
+                        <input type="text" placeholder="Confirm Password" required>
+                        <br>
+                        <input type="text" placeholder="Email" required>
+                        <br>
+                        <input type="text" placeholder="Birthday" required>
+                        <br>
+                        <br>
+                        <label><input type="checkbox" name="terms-and-service">By checking this box you agree to the <a href="#">Terms of Service</a> and <a href="#">User Agreement</a> of this website</label>
+                        <br>
+                        <label><input type="checkbox" name="terms-and-service" checked>By checking this box you agree to receiving promotional and informational emails from Goaler</label>
+                        <br>
+                        <br>
+                        <br>
+                        <button type="submit">Create My Account</button>
 				</div>
 			</div>
 		</section>
